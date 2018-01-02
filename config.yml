@@ -26,7 +26,7 @@ defaults:
       author: true
       author_profile: true
       toc: true
-      comments: true
+#      comments: true
       share: true
       related: true
 
