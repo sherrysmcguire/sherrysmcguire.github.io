@@ -1,0 +1,53 @@
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "neon"
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+
+timezone: America/New_York
+future: true
+paginate: 10
+excerpt_separator: <!--more-->
+
+url: https://devildroid.com
+title: devildroid
+name: Sherry S. McGuire
+description: "A blog about All The Things"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author: true
+      author_profile: true
+      toc: true
+      comments: true
+      share: true
+      related: true
+
+author:
+  name   : Sherry McGuire
+  avatar : "/assets/images/headshot.jpg"
+  bio    : "ROBOTS! MONKEYS! AI!"
+
+#comments:
+#  provider: "disqus"
+#  disqus:
+#    shortname: "devildroid"
+
+# everything below forces line-numbering in code blocks per > https://github.com/jekyll/jekyll/issues/4619#issuecomment-191267346
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: csharp
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
