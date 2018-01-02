@@ -26,9 +26,9 @@ defaults:
       author: true
       author_profile: true
       toc: true
-#      comments: true
       share: true
       related: true
+#      comments: true
 
 author:
   name   : Sherry McGuire
