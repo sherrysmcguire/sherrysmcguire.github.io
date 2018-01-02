@@ -1,2 +1,1 @@
-# sherrysmcguire.github.io
-Sherry's personal blog
+https://devildroid.com
