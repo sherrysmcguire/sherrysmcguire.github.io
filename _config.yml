@@ -1,3 +1,5 @@
+
+# https://github.com/mmistakes/minimal-mistakes
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "neon"
 
@@ -13,22 +15,22 @@ paginate: 10
 excerpt_separator: <!--more-->
 
 url: https://devildroid.com
-title: devildroid
-name: Sherry S. McGuire
-description: "A blog about All The Things"
+title: devildroid 
+name: Sherry McGuire
+description: "Tech, art, AI, science, futurism, etc."
 
+# https://mmistakes.github.io/minimal-mistakes/docs/posts/
 defaults:
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      author: true
       author_profile: true
       toc: true
+      comments: true
       share: true
       related: true
-#      comments: true
 
 author:
   name   : Sherry McGuire
